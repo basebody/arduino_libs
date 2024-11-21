@@ -1,4 +1,4 @@
-## arduino_libs
+# arduino_libs
 
 [![Generic badge](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/)
 
@@ -11,3 +11,5 @@ It's library contains libraries for:
 - **WS2812 strip**
 
 ### Just connect "Libs.h" and enjoy!
+
+**Futures updates come soon!**
