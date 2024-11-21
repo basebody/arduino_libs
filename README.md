@@ -4,7 +4,7 @@
 
 ### Is a library with the libs for basic Arduino components
 
-*It's library contains libraries for:*
+It's library contains libraries for:
 - **Sonar sensor**
 - **Temperature sensor**
 - **Motor**
