@@ -1,7 +1,7 @@
 #include "Temperature.h"
 
 float Temperature::readTemperatureC() {
-    _temperatureC = (analogRead(TEMPERATURE_PIN) * (5.0 / 1023.0)) * 100.0;
+    _temperatureC = (analogRead(_pin) * (5.0 / 1023.0)) * 100.0;
     return  _temperatureC;
 }
 

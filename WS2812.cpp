@@ -1,6 +1,7 @@
 #include "WS2812.h"
 
-WS2812::WS2812() {
+WS2812::WS2812(uint8_t count, uint8_t pin) {
+    _strip = Adafruit_NeoPixel(count, pin, NEO_GRB + NEO_KHZ800)
     _strip.begin();
     _strip.show();
 }
