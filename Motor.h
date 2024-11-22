@@ -34,6 +34,7 @@ private:
   uint8_t _motorLeftForward;
   uint8_t _motorLeftBackward;
   uint8_t _motorLeftPWM;
+  uint8_t _motorEnable;
 };
 
 #endif  // __MOTOR_H_

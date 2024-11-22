@@ -1,22 +1,23 @@
 #include "Motor.h"
 
-Motor::Motor(uint8_t motorRightForward, uint8_t motorRightBackward, uint8_t motorRightPWM, uint8_t motorLeftForward, uint8_t motorLeftBackward, uint8_t motorLeftPWM) {
+Motor::Motor(uint8_t motorRightForward, uint8_t motorRightBackward, uint8_t motorRightPWM, uint8_t motorLeftForward, uint8_t motorLeftBackward, uint8_t motorLeftPWM, uint8_t motorEnable) {
   uint8_t _motorRightForward = motorRightForward;
   uint8_t _motorRightBackward = motorRightBackward;
   uint8_t _motorRightPWM = motorRightPWM;
   uint8_t _motorLeftForward = motorLeftForward;
   uint8_t _motorLeftBackward = motorLeftBackward;
   uint8_t _motorLeftPWM = motorLeftPWM;
+  uint8_t _motorEnable = motorEnable;
 
-  pinMode(MOTOR_LEFT_IN1, OUTPUT);
-  pinMode(MOTOR_LEFT_IN2, OUTPUT);
-  pinMode(MOTOR_RIGHT_IN1, OUTPUT);
-  pinMode(MOTOR_RIGHT_IN2, OUTPUT);
-  pinMode(MOTORS_ENABLE, OUTPUT);
+  pinMode(_motorLeftBackward, OUTPUT);
+  pinMode(_motorLeftForward, OUTPUT);
+  pinMode(_motorRightForward, OUTPUT);
+  pinMode(_motorRightBackward, OUTPUT);
+  pinMode(_motorEnable, OUTPUT);
 }
 
 void Motor::enable(bool en) {
-  digitalWrite(MOTORS_ENABLE, en);
+  digitalWrite(_motorEnable, en);
 }
 
 void Motor::moveForward(uint8_t speed) {
