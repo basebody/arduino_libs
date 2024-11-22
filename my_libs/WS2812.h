@@ -1,7 +1,7 @@
 #ifndef __WS2812_H_
 #define __WS2812_H_
 
-#include "Adafruit_NeoPixel.h"
+#include "libs/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 
 #include "Arduino.h"
 
