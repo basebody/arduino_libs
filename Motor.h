@@ -18,7 +18,7 @@
 
 class Motor {
 public:
-  Motor();
+  Motor(uint8_t motorRightForward, uint8_t motorRightBackward, uint8_t motorRightPWM, uint8_t motorLeftForward, uint8_t motorLeftBackward, uint8_t motorLeftPWM);
   void enable(bool en = true);
   void moveForward(uint8_t speed);
   void moveBackward(uint8_t speed);
@@ -28,6 +28,12 @@ public:
 
 private:
   uint8_t _motorDiff = 0;
+  uint8_t _motorRightForward;
+  uint8_t _motorRightBackward;
+  uint8_t _motorRightPWM;
+  uint8_t _motorLeftForward;
+  uint8_t _motorLeftBackward;
+  uint8_t _motorLeftPWM;
 };
 
 #endif  // __MOTOR_H_
