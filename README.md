@@ -22,4 +22,11 @@ The library includes pre-written, easy-to-use code for the following components:
    ```bash
    git clone https://github.com/basebody/arduino_libs.git
 
+2. Move to Arduino libraries directory
+
+3. ```cpp
+   #include "Libs.h"
+
+4. **Enjoy!**
+
 **Future updates come soon!**
