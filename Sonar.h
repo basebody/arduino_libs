@@ -14,7 +14,7 @@
 
 class Sonar {
     public:
-        Sonar(uint8_t echo, uint8_t trig, uint32_t max_distance) {_sonar = NewPing(echo, trig, max_distance);}
+        Sonar(uint8_t echo, uint8_t trig, uint32_t max_distance) : _sonar(echo, trig, max_distance) {}
         int readCm();
         int readIn();
     private:

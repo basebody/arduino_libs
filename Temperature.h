@@ -5,7 +5,7 @@
 
 class Temperature {
     public:
-        Temperature(uint8_t pin) {_pin = pin}
+        Temperature(uint8_t pin) {_pin = pin;};
         float readTemperatureC();
         float readTemperatureF();
     private:
