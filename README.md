@@ -1,15 +1,23 @@
-# arduino_libs
+# Arduino Libs
 
+[![Generic badge](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/basebody/arduino_libs)
 [![Generic badge](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/)
+[![Generic badge](https://img.shields.io/badge/rony__robot-blue.svg)](https://github.com/vergilium/rony_bot)
 
-### Is a library with the libs for basic Arduino components
+## About
 
-It's library contains libraries for:
-- **Sonar sensor**
-- **Temperature sensor**
-- **Motor**
-- **WS2812 strip**
+**Arduino Libs** is a library designed to simplify the usage of basic Arduino components. With this library, you can focus on creating projects without worrying about setting up individual components.
 
-### Just connect "Libs.h" and enjoy!
+## Features
 
-**Futures updates come soon!**
+The library includes pre-written, easy-to-use code for the following components:
+- **Sonar Sensor**: Easily measure distances using ultrasonic sensors.
+- **Temperature Sensor**: Monitor temperature in your projects with simple methods.
+- **Motor**: Simplify motor control, whether it's DC, servo, or stepper motors.
+- **WS2812 LED Strip**: Create stunning light effects with minimal coding.
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/basebody/arduino_libs.git
