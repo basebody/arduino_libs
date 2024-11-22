@@ -24,7 +24,8 @@ The library includes pre-written, easy-to-use code for the following components:
 
 2. Move to Arduino libraries directory
 
-3. ```cpp
+3. Connect to Arduino:
+   ```cpp
    #include "Libs.h"
 
 4. **Enjoy!**
