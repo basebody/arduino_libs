@@ -1,8 +1,8 @@
 # Arduino Libs
 
-[![Generic badge](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/basebody/arduino_libs)
+[![Generic badge](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/basebody/arduino_libs)
 [![Generic badge](https://img.shields.io/badge/Arduino-blue.svg)](https://www.arduino.cc/)
-[![Generic badge](https://img.shields.io/badge/rony__robot-blue.svg)](https://github.com/vergilium/rony_bot)
+[![Generic badge](https://img.shields.io/badge/rony__bot-blue.svg)](https://github.com/vergilium/rony_bot)
 
 ## About
 
