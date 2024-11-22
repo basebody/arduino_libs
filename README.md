@@ -30,4 +30,4 @@ The library includes pre-written, easy-to-use code for the following components:
 
 4. **Enjoy!**
 
-## Future updates come soon!
+### Future updates come soon!
