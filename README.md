@@ -10,7 +10,6 @@
 
 ## Features
 
-<<<<<<< HEAD
 The library includes pre-written, easy-to-use code for the following components:
 - **Sonar Sensor**: Easily measure distances using ultrasonic sensors.
 - **Temperature Sensor**: Monitor temperature in your projects with simple methods.
@@ -22,6 +21,5 @@ The library includes pre-written, easy-to-use code for the following components:
 1. Clone this repository:
    ```bash
    git clone https://github.com/basebody/arduino_libs.git
-=======
-**Futures updates come soon!**
->>>>>>> b5b29fef36b1b28443ab626b944571848016f001
+
+**Future updates come soon!**
