@@ -27,6 +27,8 @@ The library includes pre-written, easy-to-use code for the following components:
    ```cpp
    #include "Libs.h"
 
-4. **Enjoy!**
+4. Check examples
+
+5. **Enjoy!**
 
 ### Future updates come soon!
