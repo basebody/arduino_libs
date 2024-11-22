@@ -23,48 +23,48 @@ void Motor::moveForward(uint8_t speed) {
   analogWrite(_motorLeftPWM, speed);
   analogWrite(_motorRightPWM, speed);
 
-  digitalWrite(MOTOR_LEFT_IN1, LOW);
-  digitalWrite(MOTOR_LEFT_IN2, HIGH);
-  digitalWrite(MOTOR_RIGHT_IN1, HIGH);
-  digitalWrite(MOTOR_RIGHT_IN2, LOW);
+  digitalWrite(_motorLeftBackward, LOW);
+  digitalWrite(_motorLeftForward, HIGH);
+  digitalWrite(_motorRightForward, HIGH);
+  digitalWrite(_motorRightBackward, LOW);
 }
 
 void Motor::moveBackward(uint8_t speed) {
   analogWrite(_motorLeftPWM, speed);
   analogWrite(_motorRightPWM, speed);
 
-  digitalWrite(MOTOR_LEFT_IN1, HIGH);
-  digitalWrite(MOTOR_LEFT_IN2, LOW);
-  digitalWrite(MOTOR_RIGHT_IN1, LOW);
-  digitalWrite(MOTOR_RIGHT_IN2, HIGH);
+  digitalWrite(_motorLeftBackward, HIGH);
+  digitalWrite(_motorLeftForward, LOW);
+  digitalWrite(_motorRightForward, LOW);
+  digitalWrite(_motorRightBackward, HIGH);
 }
 
 void Motor::moveLeft(uint8_t speed) {
   analogWrite(_motorLeftPWM, 0);
   analogWrite(_motorRightPWM, speed);
 
-  digitalWrite(MOTOR_LEFT_IN1, LOW);
-  digitalWrite(MOTOR_LEFT_IN2, LOW);
-  digitalWrite(MOTOR_RIGHT_IN1, HIGH);
-  digitalWrite(MOTOR_RIGHT_IN2, LOW);
+  digitalWrite(_motorLeftBackward, LOW);
+  digitalWrite(_motorLeftForward, LOW);
+  digitalWrite(_motorRightForward, HIGH);
+  digitalWrite(_motorRightBackward, LOW);
 }
 
 void Motor::moveRight(uint8_t speed) {
   analogWrite(_motorLeftPWM, speed);
   analogWrite(_motorRightPWM, 0);
 
-  digitalWrite(MOTOR_LEFT_IN1, LOW);
-  digitalWrite(MOTOR_LEFT_IN2, HIGH);
-  digitalWrite(MOTOR_RIGHT_IN1, LOW);
-  digitalWrite(MOTOR_RIGHT_IN2, LOW);
+  digitalWrite(_motorLeftBackward, LOW);
+  digitalWrite(_motorLeftForward, HIGH);
+  digitalWrite(_motorRightForward, LOW);
+  digitalWrite(_motorRightBackward, LOW);
 }
 
 void Motor::stop(){
   analogWrite(_motorLeftPWM, 0);
   analogWrite(_motorRightPWM, 0);
 
-  digitalWrite(MOTOR_LEFT_IN1, LOW);
-  digitalWrite(MOTOR_LEFT_IN2, LOW);
-  digitalWrite(MOTOR_RIGHT_IN1, LOW);
-  digitalWrite(MOTOR_RIGHT_IN2, LOW);
+  digitalWrite(_motorLeftBackward, LOW);
+  digitalWrite(_motorLeftForward, LOW);
+  digitalWrite(_motorRightForward, LOW);
+  digitalWrite(_motorRightBackward, LOW);
 }
