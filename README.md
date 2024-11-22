@@ -11,7 +11,6 @@
 ## Features
 
 The library includes pre-written, easy-to-use code for the following components:
-- **Sonar Sensor**: Easily measure distances using ultrasonic sensors.
 - **Temperature Sensor**: Monitor temperature in your projects with simple methods.
 - **Motor**: Simplify motor control, whether it's DC, servo, or stepper motors.
 - **WS2812 LED Strip**: Create stunning light effects with minimal coding.
