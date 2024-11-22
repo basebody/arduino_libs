@@ -17,11 +17,11 @@ The library includes pre-written, easy-to-use code for the following components:
 
 ## Installation
 
-1. Download this repository:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/basebody/arduino_libs.git
 
-   Code - Download ZIP
-
-2. Open Arduino IDE and add library (Tools - Add ZIP library - Choose from PC - arduino_libs-main.zip)
+2. Move to Arduino libraries directory
 
 3. Connect to Arduino:
    ```cpp
