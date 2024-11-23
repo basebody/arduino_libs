@@ -1,13 +1,13 @@
 #include "Motor.h"
 
 Motor::Motor(uint8_t motorRightForward, uint8_t motorRightBackward, uint8_t motorRightPWM, uint8_t motorLeftForward, uint8_t motorLeftBackward, uint8_t motorLeftPWM, uint8_t motorEnable) {
-  uint8_t _motorRightForward = motorRightForward;
-  uint8_t _motorRightBackward = motorRightBackward;
-  uint8_t _motorRightPWM = motorRightPWM;
-  uint8_t _motorLeftForward = motorLeftForward;
-  uint8_t _motorLeftBackward = motorLeftBackward;
-  uint8_t _motorLeftPWM = motorLeftPWM;
-  uint8_t _motorEnable = motorEnable;
+  _motorRightForward = motorRightForward;
+  _motorRightBackward = motorRightBackward;
+  _motorRightPWM = motorRightPWM;
+  _motorLeftForward = motorLeftForward;
+  _motorLeftBackward = motorLeftBackward;
+  _motorLeftPWM = motorLeftPWM;
+  _motorEnable = motorEnable;
 
   pinMode(_motorLeftBackward, OUTPUT);
   pinMode(_motorLeftForward, OUTPUT);
